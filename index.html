@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>标题</title>
+  <style>
+    .map {
+      width: 800px;
+      height: 600px;
+      background-color: #cccccc;
+      position: relative;
+      top: 0px;
+      left: 0px;
+    }
+  </style>
+</head>
+<body>
+<div class="map" id="map"></div>
+<!--<script src="Food.js"></script>-->
+<!--<script src="Snake.js"></script>-->
+<!--<script src="Game.js"></script>-->
+<script src="index.js"></script>
+<script>
+
+  //-------------------------------------------------------------------------------------
+  //获取地图
+  var map = document.getElementById("map");
+
+
+  //创建一个游戏控制器对象.
+  var game1 = new Game(map);
+  //调用游戏控制器对象的startGame()的方法.
+  game1.startGame();
+
+
+
+
+
+
+
+
+
+
+
+
+
+//---------------------------------------------------
+//  //实例化一个食物对象.
+//  var food1 = new Food();
+//  food1.render(map);
+//
+//
+//  //实例化一个蛇对象.
+//  var snake1 = new Snake();
+//  snake1.render(map);
+
+
+
+
+
+
+
+
+
+
+
+
+
+//-----------------------------------------------------------------------------
+// function sb(){
+//   console.log("我是一个sb");
+// }
+// //声明的全局变量,以及全局函数,都相当于是给window添加的属性和方法.
+// sb();
+// window.sb();
+
+
+//
+//(function (window) {
+//  console.log("我是自执行函数");
+//  //此时这个sb函数是一个局部函数.
+//  function sb(){
+//   console.log("我是一个sb");
+//  }
+//  window.sb = sb;
+//}(window));
+//
+//  sb();
+
+
+//  (function(){
+//
+//    function sb(){
+//      console.log("我是一个sb...");
+//    }
+//
+//  }());
+//
+//  sb();
+
+
+
+</script>
+</body>
+</html>
